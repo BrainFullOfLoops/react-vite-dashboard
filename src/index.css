@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.dark {
+    @apply bg-slate-900 text-amber-50
+}
+
+.light {
+    @apply bg-amber-50 text-black
+}
