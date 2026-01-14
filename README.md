@@ -1,16 +1,64 @@
-# React + Vite
+# 🧠 Personal Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean **personal dashboard** built with **React + Tailwind CSS** that gives me
+everything important at a glance:
 
-Currently, two official plugins are available:
+- ⏰ Current Time (live)
+- 🌤️ Live Weather of **Patna**
+- 💭 A Random Quote for the Day
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Minimal. Fast. No unnecessary noise.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🕒 **Real-time Clock**
+- 🌦️ **Live Weather** (Patna)
+- 📍 City-based weather data
+- 💭 **Random Daily Quote**
+- 🎨 Clean UI with Tailwind
+- ⚡ Instant updates using React hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- JavaScript (ES6+)
+- Weather API
+- Quotes API
+
+No overengineering. Just solid fundamentals.
+
+---
+
+## 📸 Preview
+
+> Dashboard displays:
+> - Current local time (auto-updating)
+> - Weather condition & temperature
+> - One random motivational / thoughtful quote
+
+---
+
+## ⚙️ How It Works
+
+### ⏰ Time
+- Uses JavaScript `Date()`
+- Updates every second via `setInterval`
+- Managed with React `useEffect`
+
+### 🌤️ Weather (Patna)
+- Fetches live data using city name
+- Shows:
+  - Temperature
+  - Weather condition
+  - Location
+
+### 💭 Quote of the Day
+- Fetches a random quote from an API
+- New quote on refresh or daily cache
+
+---
